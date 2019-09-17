@@ -162,7 +162,33 @@ footer{
 
     
 }
- @media(min-width:768px){
+@media(min-width:768px){
+    .welcome-heading{
+        margin: 0;
+        font-size:70px;
+        color: white;
+        background-color:black;
+        opacity: 0.7;
+        padding: 30px;
+        font-weight: bold;
+        border-left:solid 5px coral;
+        border-right: solid 5px coral;   
     
+    }
+    .carousel-center{
+        bottom: 20px;
+    }
     
 } 
+@media(min-width:1024px){
+    .carousel-center{
+        bottom: 50px;
+    } 
+    
+}
+@media(min-width:1150px){
+    .carousel-center{
+        bottom: 100px;
+    }  
+}
+
