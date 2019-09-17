@@ -101,11 +101,11 @@ footer{
 .carousel-center{
     bottom: 200px;
 }
-#nacka-logo{
+.nacka-logo{
     border-radius: 50%;
     height: 150px;
 }
-/* #learnpoint-logo{
+/* .learnpoint-logo{
     width: 150px;
     height: 150Px;
     color: black;
