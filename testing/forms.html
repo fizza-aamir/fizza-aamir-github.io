@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Forms</title>
+</head>
+
+<body>
+    <h1 id="top">Forms</h1>
+    <form>
+        <div>
+            <label for="id_firstName">First Name</label>
+            <input id="id_firstName" name="firstName" type="text" required placeholder="skriv ditt namn här">
+        </div>
+        <div>
+            <label>Lastname<input type="text" disabled name="lastname" /></label>
+        </div>
+
+        <div>
+            <label for="about">About me</label>
+            <textarea id="about" rows="10"></textarea>
+        </div>
+        <div>
+            <fieldset>
+                <legend>Do you want a newsletter?</legend>
+                <input type="radio" id="newsletterYes" name="newsletter" value="true">
+                <label for="newsletterYes">Yes</label>
+                <input type="radio" id="newsletterNo" name="newsletter" value="false">
+                <label for="newsletterNo">No</label>
+            </fieldset>
+
+        </div>
+        <div>
+            <fieldset>
+                <legend>what streaming services do you use?</legend>
+                <input type="checkbox" id="streaming-netflix" value="netflix" name="streaming">
+                <label for="streaming-netflix">Netflix</label>
+                <input type="checkbox" id="streaming-viaplay" value="viaplay" name="streaming">
+                <label for="streaming-viaplay">viaplay</label>
+                <input type="checkbox" id="streaming-hbo" value="hbo" name="streaming">
+                <label for="streaming-hbo">HBO</label>
+            </fieldset>
+        </div>
+        <div>
+            <label for="gender">Kön</label>
+            <select id="gender" name="gender">
+                <option value="">Välj Kön</option>
+                <option value="male">Man</option>
+                <option value="female">Kvinna</option>
+            </select>
+        </div>
+        <div>
+            <label for="age">Ålder</label>
+            <input id="age" type="number" min="18" max="55" name="age" value="age">
+        </div>
+        <div>
+            <label for="password">Lösenord</label>
+            <input id="password" type="password" value="password">
+        </div>
+
+        <div>
+            <label for="birthday">Födelsedag</label>
+            <input id="birthday" type="date" name="birthday">
+        </div>
+        <div>
+            <label for="searchParameters">Sökparameter</label>
+            <input id="searchParameters" type="search" name="searchParameters">
+        </div>
+        <div>
+            <label for="email">Epost</label>
+            <input id="email" type="email" name="email">
+        </div>
+        <div>
+            <label for="cv">CV</label>
+            <input id="cv" type="file" name="cv">
+        </div>
+        <div>
+            <label for="someTime">Time</label>
+            <input id="someTime" type="time" name="someTime">
+        </div>
+        <div>
+            <input type="hidden" name="customerId" value="123456">
+            <input type="submit" value="spara">
+            <input type="reset" value="Nollståll">
+        </div>
+
+        <div>
+            <label for="browsers">Browsers</label>
+            <input id="browsers" name="browser" list="browserList">
+            <datalist id="browserList">
+                <option value="IE11">Internet Explorer</option>
+                <option value="chrome">Google Chrome</option>
+                <option value="firfox">Firefox</option>
+            </datalist>
+        </div>
+        <div>
+            <label for="range">Start Range</label>
+            <input type="range" id="startRange" name="startRange" value="0">
+            <label for="range">End Range</label>
+            <input type="range" id="endRange" name="endRange" value="50">
+        </div>
+        <div>
+            <output name="sumOfRanges" for="startRange endRange">0</output>
+        </div>
+        <div>
+            <a href="#top">gå till top</a>
+        </div>
+
+        <!-- <div>
+            <label for="">Namn <input type="text"></label>
+        </div>-->
+    </form>
+</body>
+
+</html>
