@@ -68,7 +68,7 @@
                 <div class="carousel-item" id="slide2">
                     <img class="d-block w-100" src="./images/pic2.jpg" alt="Second slide">
                     <div class="carousel-caption d-none d-md-block carousel-center">
-                        <h1 class="welcome-heading">Vällkommen!</h1>
+                        <h1 onclick="snowStorm.toggleSnow()" class="welcome-heading">Vällkommen!</h1>
                         <p class="caption-style">Flexbox och CSS Grid: En jämförelse!</p>
                         <div class="bottom-links">
                             <div><a href="https://nackademin.se" target="_blank">
@@ -96,6 +96,7 @@
             href="http://www.schillmania.com/projects/snowstorm/#customizing  ">Schillmania</a>
     </div>
     <footer>Copyright &copy; Astrid&Fizza</footer>
+
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
@@ -106,7 +107,7 @@
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
     <script type="text/javascript" src="snowstorm.js"></script>
-    <script>  snowStorm.autoStart = false;          // Whether the snow should start automatically or not.
+    <script>  snowStorm.autoStart = true;          // Whether the snow should start automatically or not.
         snowStorm.snowCharacter = '&star;';  // &bull; = bullet, &middot; is square on some systems etc.
         snowColor.snowColor = '#87CEFA';       // Don't eat (or use?) yellow snow.
     </script>
