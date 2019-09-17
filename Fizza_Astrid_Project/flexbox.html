@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Flexbox Webbsida</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Modak&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="flexboxStyle.css">
+</head>
+
+<body>
+    <header id="main-header">
+        <div id="logo" onclick="logoColor()">Astrid&Fizza</div>
+        <nav id="top-navbar">
+            <div class="container">
+
+                <div id="not-mobile-design"><a href="welcome.html">Hem</a></div>
+                <div class="dropdown">
+                    <a class="btn btn-secondary dropdown-toggle hamburger" href="#" role="button" id="dropdownMenuLink"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <p>Våra Sidor</p>
+                    </a>
+
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                        <a class="dropdown-item" id="item-hide-not-mobile" href="welcome.html">Hem</a>
+                        <a class="dropdown-item" href="#">Flexbox Sida</a>
+                        <a class="dropdown-item" href="#">Css Grid Sida</a>
+
+                    </div>
+                </div>
+
+
+            </div>
+        </nav>
+    </header>
+
+    <div>
+        <h1 id="website-heading" onclick="pageWelcome()" onmouseover="changeBack()">Flexbox Webbsida</h1>
+    </div>
+
+
+    <main>
+        <!-- <h2>Innehåll</h2> -->
+        <nav id="left-nav">
+            <ul>
+                <li id="history-head" onclick="navTip1()"><a href="#history">Historia</a></li>
+                <li><a href="#begrepp">Begrepp</a></li>
+                <li><a href="#flex-layout">CSS Flexbox Layout Module</a></li>
+                <li><a href="#flex-container">Flex Container Och Flex Items</a></li>
+                <li><a href="#axes">Axlar</a></li>
+                <li><a href="#directions">Directions</a></li>
+                <li><a href="#reference">Källor</a></li>
+            </ul>
+        </nav>
+        <div id="sub-main">
+            <div class="content">
+                <h3 id="history">Historia</h3>
+                <p id="content1">
+                    Enligt wikipedia, fanns det intensiva användning av webbsidor i mobil agenter på 2000-talet.
+                    Den motiverad användning av flexibel och anpassbar "layouts" och samtidigt responsiva webbsidor
+                    på grund av olika skärmsstorlek. "Under 2010-talet inspirerade intensiv användning av populära
+                    JavaScript-layoutramar, som Bootstrap, CSS flexbox och specifikationer för rutnätlayout."(Wikipedia)
+                </p>
+            </div>
+            <div class="content" id="begrepp">
+                <h3>Begrepp</h3>
+                <p id="content2">
+                    "De flesta webbsidor skrivs i en kombination av HTML (Hypertext Markup Language) och CSS
+                    (Cascading Style Sheets). I korthet specificerar HTML innehåll och logisk struktur på sidan,
+                    medan CSS anger hur det ser ut: dess färger, teckensnitt, formatering, layout och styling.
+                    CSS flexbox-layout är ett särskilt sätt att specificera layouten för HTML-sidor.
+                    En av de mest framträdande funktionerna i flexlayouten är dess förmåga att formpassas,
+                    baserat på visningsmiljön. Flexboxar kan justeras i storlek - antingen minska, för att
+                    undvika onödigt monopolisering av utrymme eller öka för att ge utrymme för att innehåll
+                    ska begränsas inom dess gränser. Dessutom är flexlayouten mindre begränsande med avseende
+                    på innehållsflöde än de, till exempel, för block- och inline-visningstyper, som i allmänhet
+                    är i en riktning. Faktum är att inte bara flexningsriktningsflödet kan specificeras, på
+                    stilnivå, som höger, vänster, uppåt eller nedåt; enskilda föremål i en flexcontainer kan
+                    också ordnas automatiskt och omordnas för att passa det tillgängliga layoututrymmet"(wikipedia)
+                </p>
+            </div>
+            <div class="content" id="flex-layout">
+                <h3>CSS Flexbox Layout Module</h3>
+                <p>
+                    "Innan Flexbox Layout-modulen fanns fyra layoutlägen:</p>
+                <ul id="content-layout-list">
+                    <li>Block, för sektioner på en webbsida</li>
+                    <li> Inline, för text</li>
+                    <li> Table, för tvådimensionell tabelldata</li>
+                    <li>Positioned, för uttrycklig position för ett element</li>
+                </ul>
+
+                <p> Den flexibla rutan layoutmodul gör det lättare att utforma flexibel responsiv layoutstruktur utan
+                    med hjälp av flottör eller positionering. "
+                    (w3schools)
+                </p>
+            </div>
+            <div class="content" id="flex-container">
+                <h3>Flex Container Och Flex Items</h3>
+                <h5>Flex container</h5>
+                <p>Förälderelement som innehåller alla flexföremål. Använd CSS-visningsegenskapen, behållaren
+                    kan definieras som antingen flex eller inline-flex.</p>
+                <h5>Flex item</h5>
+                <p>Alla direkta barnelement som hålls i flexbehållaren betraktas som en flexartikel. All text
+                    inom behållarelementet är lindat i en okänd flexartikel.</p>
+            </div>
+            <div class="content" id="axes">
+                <h3>Axlar</h3>
+                <p>"Varje flexbox innehåller två axlar: huvud- och tväraxlar. Huvudaxeln är den axel som
+                    artiklarna står i linje med varandra. Tväraxeln är vinkelrätt mot huvudaxeln</p>
+            </div>
+            <div class="content" id="directions">
+                <h3>Directions"</h3>
+                <p>"Huvudstart- / huvudändssidorna bestämmer var de ska börja placera flexföremål i flexbehållaren,
+                    börjar från huvudstartänden och går till huvudänden. Cross-start / cross-end-sidorna
+                    bestämmer var flexlinjer fylls med flex-objekt från cross-start till cross-end"</p>
+            </div>
+            <div class="content">
+
+                <h3>Källor</h3>
+                <ul id="reference">
+                    <li><a href="https://en.wikipedia.org/wiki/CSS_Flexible_Box_Layout#Directions"
+                            target="_blank">wikipedia</a></li>
+                    <li><a href="https://en.wikipedia.org/wiki/CSS_Flexible_Box_Layout#Directions"
+                            target="_blank">w3schools</a></li>
+                    <!-- <li><a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/">Image resource</a></li> -->
+                </ul>
+            </div>
+            <a href="#main-header">Back to top</a>
+        </div>
+
+    </main>
+
+    <footer>Copyright &copy; Astrid&Fizza</footer>
+    <script src="flexbox.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
