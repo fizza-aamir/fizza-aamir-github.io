@@ -23,7 +23,8 @@ body{
 #logo{
 
     font-size: 30px;
-        font-family: 'Modak', cursive;
+    color: black;
+    font-family: 'Modak', cursive;
 }
 #not-mobile-design{
     display: none;
@@ -70,6 +71,13 @@ body{
 .container div a:visited{
    color:white;
 }
+#thanks{
+    color: white;
+    background-color: black;
+    text-align: center;
+    padding: 5px;
+
+}
 footer{
     background: #333;
     color: white;
@@ -101,11 +109,11 @@ footer{
 .carousel-center{
     bottom: 200px;
 }
-#nacka-logo{
+.nacka-logo{
     border-radius: 50%;
     height: 150px;
 }
-/* #learnpoint-logo{
+/* .learnpoint-logo{
     width: 150px;
     height: 150Px;
     color: black;
@@ -154,7 +162,33 @@ footer{
 
     
 }
- @media(min-width:768px){
+@media(min-width:768px){
+    .welcome-heading{
+        margin: 0;
+        font-size:70px;
+        color: white;
+        background-color:black;
+        opacity: 0.7;
+        padding: 30px;
+        font-weight: bold;
+        border-left:solid 5px coral;
+        border-right: solid 5px coral;   
     
+    }
+    .carousel-center{
+        bottom: 20px;
+    }
     
 } 
+@media(min-width:1024px){
+    .carousel-center{
+        bottom: 50px;
+    } 
+    
+}
+@media(min-width:1150px){
+    .carousel-center{
+        bottom: 100px;
+    }  
+}
+
