@@ -70,6 +70,12 @@ body{
 .container div a:visited{
    color:white;
 }
+#thanks{
+    color: white;
+    background-color: black;
+    text-align: center;
+
+}
 footer{
     background: #333;
     color: white;
