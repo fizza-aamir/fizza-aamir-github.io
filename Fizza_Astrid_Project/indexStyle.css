@@ -23,7 +23,8 @@ body{
 #logo{
 
     font-size: 30px;
-        font-family: 'Modak', cursive;
+    color: black;
+    font-family: 'Modak', cursive;
 }
 #not-mobile-design{
     display: none;
