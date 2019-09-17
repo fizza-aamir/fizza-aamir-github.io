@@ -102,6 +102,10 @@ body{
  .g-text p {
      padding:10px;
  }
+ .back-to-top {
+    text-align: center;
+    font-weight: bolder;
+ }
  
  .g-footer {
      grid-area: footer;
