@@ -159,7 +159,15 @@ footer{
 @media(min-width:480px){
 
     #logo{
-        padding: 0;
+
+        font-size: 30px;
+            font-family: 'Modak', cursive;
+            padding: 0;
+            margin-top: 20px;
+            margin-left: 15px;
+        }
+    #sidor{
+        display: flex;
     }
     .dropdown{
         display: none;
