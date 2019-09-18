@@ -150,6 +150,7 @@ main{
 #toTop{
     color: white;
     background-color: black;
+    text-align: center;
 }
 #toTop a{
     text-align: center;
