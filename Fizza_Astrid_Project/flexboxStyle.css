@@ -26,7 +26,7 @@ font-size: 30px;
     font-family: 'Modak', cursive;
     cursor: pointer;
 }
-#not-mobile-design{
+.not-mobile-design{
     display: none;
 }
 #top-navbar .container{
@@ -173,7 +173,7 @@ footer{
         display: flex;
         align-items: flex-start;
     }
-    #not-mobile-design{
+    .not-mobile-design{
         display: block;
         
     }
@@ -228,7 +228,7 @@ footer{
     #sub-main a, #reference a, #reference li{
         text-align: left;}
     
-     #not-mobile-design{
+     .not-mobile-design{
             display: flex;
             justify-content: flex-end;
      }
