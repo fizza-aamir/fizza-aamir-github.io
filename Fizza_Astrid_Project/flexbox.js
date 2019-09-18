@@ -3,6 +3,10 @@ function logoColor() {
     lc.style.color = "white";
 }
 
+function logoColorBack() {
+    const lc = document.getElementById("logo");
+    lc.style.color = "Black";
+}
 function pageWelcome() {
     const headingEl = document.getElementById("website-heading");
     headingEl.innerHTML = "Välkommen till vår Flexbox Webbsida";
