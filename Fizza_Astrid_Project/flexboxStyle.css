@@ -24,6 +24,7 @@ body{
 
 font-size: 30px;
     font-family: 'Modak', cursive;
+    cursor: pointer;
 }
 #not-mobile-design{
     display: none;
