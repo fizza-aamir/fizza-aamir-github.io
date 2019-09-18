@@ -184,7 +184,7 @@ footer{
     .not-mobile-design{
         display: flex;
         justify-content: flex-end;
-        padding: 10px;
+      
         
     }
     #item-hide-not-mobile{
