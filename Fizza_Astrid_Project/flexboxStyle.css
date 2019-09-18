@@ -173,7 +173,7 @@ footer{
         display: none;
     }
     #main-header{
-            
+     padding: 0;       
     justify-content:space-between;
    
     }
