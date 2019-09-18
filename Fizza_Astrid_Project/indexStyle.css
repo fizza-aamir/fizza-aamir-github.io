@@ -71,6 +71,10 @@ body{
 .container div a:visited{
    color:white;
 }
+.container div a:hover{
+    color:white;
+    font-weight: bolder;
+ }
 #thanks{
     color: white;
     background-color: black;
