@@ -95,6 +95,7 @@ h1#website-heading{
     font-size: 30px;
     background-color: black;
     color:white;
+    cursor: pointer;
 }
 
 main{
