@@ -72,6 +72,10 @@ font-size: 30px;
 .container div a:visited{
     color:black;
 }
+.container div a:hover{
+    font-weight: bolder;
+    color: black;
+}
 #left-nav ul li a:visited{
     color:white;
 }
