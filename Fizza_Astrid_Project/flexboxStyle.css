@@ -157,6 +157,10 @@ footer{
 /* for tablets*/
 
 @media(min-width:480px){
+
+    #logo{
+        padding: 0;
+    }
     .dropdown{
         display: none;
     }
@@ -172,6 +176,7 @@ footer{
     .not-mobile-design{
         display: flex;
         justify-content: flex-end;
+        padding: 10px;
         
     }
     #item-hide-not-mobile{
