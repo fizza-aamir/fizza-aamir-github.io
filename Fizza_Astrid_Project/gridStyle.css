@@ -28,16 +28,19 @@ body {
 .g-header {
     display: grid;
     grid-area: header;
-    grid-template-columns: 1fr auto;
-    justify-content: start; 
-    align-content: center;
+    grid-template-columns: auto auto;
+    justify-items : center; 
+    align-items: center;
+    color: black;
     background-color: coral;
-    padding: 20px;
+    padding: 20px 20px 10px 20px;
 } 
 
 .g-logo {
     font-size: 30px;
     font-family: 'Modak', cursive;
+    margin-left: auto;
+    margin-right: 10px;
 }
 
  #g-topNavBar{
@@ -53,6 +56,30 @@ body {
     color:white;
 }
 
+.hamburger > div {
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0;
+}
+.hamburger::after {
+    display: none;
+}
+.dropdown {
+display: grid;
+margin-right: auto
+}
+.dropdown #dropdownMenuLink{
+    background-color:coral;
+    border: none;
+    font-size: 25px;
+    padding: 0;
+}
+.container .dropdown .dropdown-item{
+    color: black;
+    font-size: 20px;
+    padding: 10px;
+}
 
 /*website heading*/
  #g-h {
@@ -127,6 +154,18 @@ body {
     .dropdown {
         display: none;
     }
+    .g-header {
+        display: grid;
+        grid-area: header;
+        grid-template-columns: 1fr auto;
+        justify-items : flex-start; 
+       padding: 20px;
+    }
+    .g-logo {
+        font-size: 30px;
+        font-family: 'Modak', cursive;
+        margin:0;
+    }
     #g-topNavBar {
         display: grid;
         grid-template-columns: auto auto auto;
@@ -142,7 +181,7 @@ body {
    
 }
 /* desktop*/
- @media screen and (min-width:768px) {
+ @media screen and (min-width:800px) {
    
     .g-text {
         max-width: 100%;
