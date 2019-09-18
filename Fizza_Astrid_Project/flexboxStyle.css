@@ -46,9 +46,9 @@ font-size: 30px;
     background-color: black;
     margin: 6px 0;
   }
-  .hamburger > p{
+  /* .hamburger > p{
       display: none;
-  }
+  } */
 
 .hamburger::after {
     display: none;
@@ -228,6 +228,10 @@ footer{
     #sub-main a, #reference a, #reference li{
         text-align: left;}
     
+     #not-mobile-design{
+            display: flex;
+            justify-content: flex-end;
+     }
 } 
 
 
