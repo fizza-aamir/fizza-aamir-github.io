@@ -152,8 +152,8 @@ main{
     background-color: black;
     text-align: center;
 }
-#toTop a{
-    text-align: center;
+#toTop a, #toTop a:visited{
+    color:white;
 }
 
 footer{
