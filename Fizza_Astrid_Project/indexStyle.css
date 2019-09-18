@@ -76,6 +76,7 @@ body{
     background-color: black;
     text-align: center;
     padding: 5px;
+    display: none;
 
 }
 footer{
@@ -178,7 +179,12 @@ footer{
     .carousel-center{
         bottom: 20px;
     }
-    
+    #thanks{
+        color: white;
+        background-color: black;
+        text-align: center;
+        padding: 5px;
+        display:block;
 } 
 @media(min-width:1024px){
     .carousel-center{
@@ -191,4 +197,4 @@ footer{
         bottom: 100px;
     }  
 }
-
+}
