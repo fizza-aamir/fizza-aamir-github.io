@@ -174,7 +174,7 @@ footer{
         align-items: flex-start;
     }
     .not-mobile-design{
-        display: block;
+        display: none;
         
     }
     #item-hide-not-mobile{
@@ -215,6 +215,9 @@ footer{
     }
 }
  @media(min-width:768px){
+     .dropdown-menu{
+         display: none;
+     }
     main{
         flex-direction: row;
         /* text-align: left; */
