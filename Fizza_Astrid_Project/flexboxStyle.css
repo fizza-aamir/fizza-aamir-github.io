@@ -148,10 +148,11 @@ main{
     color:black;
 }
 #toTop{
-    display: flex;
-    text-align: center;
     color: white;
     background-color: black;
+}
+a#toTop{
+    text-align: center;
 }
 
 footer{
