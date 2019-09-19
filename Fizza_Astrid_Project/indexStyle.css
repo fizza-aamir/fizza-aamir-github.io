@@ -133,6 +133,9 @@ footer{
 }
 /*for tablets*/
 @media(min-width:480px){
+    .welcome-heading{
+        padding: 10px;
+    }
     #logo{
 
         font-size: 30px;
