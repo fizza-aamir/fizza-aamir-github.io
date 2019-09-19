@@ -186,14 +186,17 @@ footer{
 
     
 }
+@@media(min-width:768px){
+    .d-none{
+        display: none!important;
+    }
+}
 
 /*for desktops*/
 @media(min-width:770px)
 
 {
-    .d-none{
-        display: none!important;
-    }
+    
     .not-mobile-design{
     display: flex;
     justify-content: flex-end;
