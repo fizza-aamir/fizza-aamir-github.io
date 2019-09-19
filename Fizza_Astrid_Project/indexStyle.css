@@ -186,7 +186,11 @@ footer{
 
     
 }
-
+@media(max-width:770){
+    .d-none{
+        display: none;
+    }
+}
 
 /*for desktops*/
 @media(min-width:770px)
