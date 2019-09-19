@@ -186,7 +186,7 @@ footer{
 
     
 }
-@media(max-width:770){
+@media(max-width:770px){
     .d-none{
         display: none!important;
     }
