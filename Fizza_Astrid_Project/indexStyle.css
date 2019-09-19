@@ -133,7 +133,7 @@ footer{
 }
 /*for tablets*/
 @media(min-width:480px){
-    .welcome-heading{
+    .carousel-center{
         padding: 10px;
     }
     #logo{
