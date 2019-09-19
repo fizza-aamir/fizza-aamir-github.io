@@ -186,11 +186,7 @@ footer{
 
     
 }
-@media(min-width:768px){
-    .d-none{
-        display: none!important;
-    }
-}
+
 
 /*for desktops*/
 @media(min-width:770px)
